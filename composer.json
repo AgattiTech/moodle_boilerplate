@@ -1,0 +1,19 @@
+{
+    "name": "agattitech/moodle_boilerplate",
+    "license": "GPL-3.0-or-later",
+    "description": "Moodle - the world's open source learning platform (improved)",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://moodleplugarit.mmg.fi"
+        }
+    ],
+    "type": "project",
+    "homepage": "https://agatti.tech",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "moodle/moodle": "3.9",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
